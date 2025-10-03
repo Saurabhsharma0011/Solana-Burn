@@ -39,3 +39,61 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Solana/Anchor specific
+target/
+.anchor/
+test-ledger/
+.solana/
+keypairs/
+*.json.bak
+
+# Rust specific
+Cargo.lock
+
+# Program artifacts
+programs/**/target/
+**/deploy/*.so
+
+# Security - Private keys and sensitive data
+*.key
+wallet.json
+id.json
+*-keypair.json
+private-key.json
+.secret
+
+# Token deployment info (contains sensitive addresses and private keys)
+token-deployment.json
+transfer-info.json
+burn-info.json
+deployment-*.json
+*-deployment.json
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# Anchor specific
+**/.anchor
+**/Anchor.toml.backup
+
+# Local development files
+.local
+.devnet
+.mainnet
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
