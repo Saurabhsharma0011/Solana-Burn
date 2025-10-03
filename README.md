@@ -1,4 +1,5 @@
-# 🔥 BurnBoost Token
+# 🔥 BurnBoost Token //currenlty the platform is on devnet but will soon deploy on mainnet
+
 
 A revolutionary deflationary cryptocurrency with market cap boost mechanism. Burn tokens to permanently reduce supply and increase market capitalization.
 
